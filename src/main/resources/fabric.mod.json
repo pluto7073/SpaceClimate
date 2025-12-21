@@ -1,18 +1,18 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "tan_adastra_compat",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "TAN AdAstra Compat",
+	"description": "A simple mod that adds compatibility between ToughAsNails and AdAstra",
 	"authors": [
-		"Me!"
+		"Pluto7073"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/Pluto7073/plutos-example-mod"
+		"homepage": "https://github.com/pluto7073/TAN-AdAstra-Compat/tree/1.20/",
+		"sources": "https://github.com/pluto7073/TAN-AdAstra-Compat/tree/1.20"
 	},
 	"license": "MIT",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/tan_adastra_compat/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
