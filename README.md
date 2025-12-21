@@ -1,14 +1,7 @@
-# Fabric Example Mod
+A simple mod that adds compatibility between Ad Astra and Tough as Nails (Forge support coming soon)
 
-## Extra Things
+### What's Changed?
 
-Other than standard Fabric API stuff, this has recipe viewer implementation, a few Dev Env mods, an example Test Mod, Datagen setup,
-and Mojang Mappings with a little quilt on the side.  Oh and Parchment
+The Spacesuit is now marked as heating, so that TAN doesn't freeze you to death on cold planets where you need a spacesuit for air and can't wear wool.
 
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the MIT license. Feel free to learn from it and incorporate it in your own projects.
+The Netherite Space Suit and Jet Suit now give you the Climate Clemency Effect when wearing a full suit, so that you can freely visit hot and cold planets without the environment on those planets affecting you
