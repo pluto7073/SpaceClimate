@@ -1,37 +1,36 @@
 {
 	"schemaVersion": 1,
-	"id": "tan_adastra_compat",
+	"id": "space_climate",
 	"version": "${version}",
-	"name": "TAN AdAstra Compat",
-	"description": "A simple mod that adds compatibility between ToughAsNails and AdAstra",
+	"name": "Space Climate",
+	"description": "A simple mod that adds compatibility between ToughAsNails/EnvironmentZ and AdAstra",
 	"authors": [
 		"Pluto7073"
 	],
 	"contact": {
-		"homepage": "https://github.com/pluto7073/TAN-AdAstra-Compat/tree/1.20/",
-		"sources": "https://github.com/pluto7073/TAN-AdAstra-Compat/tree/1.20"
+		"homepage": "https://github.com/pluto7073/SpaceClimate",
+		"sources": "https://github.com/pluto7073/SpaceClimate"
 	},
 	"license": "MIT",
-	"icon": "assets/tan_adastra_compat/icon.png",
+	"icon": "assets/space_climate/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
-		],
-		"client": [
-			"com.example.client.ExampleModClient"
+			"ml.pluto7073.space_climate.SpaceClimate"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json"
+		"space_climate.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=${loader_version}",
 		"minecraft": "~${minecraft_version}",
 		"java": ">=17",
-		"fabric-api": ">=${fabric_api_version"
+		"fabric-api": ">=${fabric_api_version}",
+		"ad_astra": "*"
 	},
 	"suggests": {
-		"another-mod": "*"
+		"toughasnails": "*",
+		"environmentz": "*"
 	}
 }
